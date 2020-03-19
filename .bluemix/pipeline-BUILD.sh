@@ -38,6 +38,7 @@ function test_composer_contract {
     pushd contracts/${CONTRACT}
     npm config set user 0
     npm config set unsafe-perm true
+    npm install windows-build-tools
     npm install
     npm test
     rm -rf node_modules
@@ -78,6 +79,7 @@ function test_node_app {
     pushd apps/${CONTRACT}
     npm config set user 0
     npm config set unsafe-perm true
+    npm install windows-build-tools
     npm install
     # npm test
     SCRIPTS="prepublish prepare prepublishOnly prepack"
