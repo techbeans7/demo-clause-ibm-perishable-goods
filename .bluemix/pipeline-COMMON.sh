@@ -52,7 +52,7 @@ function install_nodejs {
 function install_composer {
     npm config set user 0
     npm config set unsafe-perm true
-    sudo apt-get install build-essential
+    npm install make
     npm install -g composer-cli@${COMPOSER_VERSION} @ampretia/composer-wallet-cloudant
 }
 
