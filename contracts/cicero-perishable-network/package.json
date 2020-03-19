@@ -2,6 +2,10 @@
   "name": "cicero-perishable-network",
   "version": "0.5.0",
   "description": "Track shipments and invoke a Cicero Smart Clause",
+  "engines": {
+    "node": "8.15.0",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "test": "mocha --recursive --timeout 100000",
     "package:bna": "cd dist && composer archive create -t dir -n ../ && cd ../"
