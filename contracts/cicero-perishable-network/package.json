@@ -20,7 +20,8 @@
     "istanbul": "latest",
     "mocha": "^5.1.1",
     "nock": "^9.2.5",
-    "sinon": "^4.1.2"
+    "sinon": "^4.1.2",
+    "make": "^0.8.1"
   },
   "dependencies": {}
 }
